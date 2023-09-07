@@ -1,10 +1,13 @@
 import { Facebook, GitHub, Instagram, LinkedIn, MailOutline, Phone, Room, Twitter } from "@mui/icons-material";
 import styled from "styled-components"
+import { mobile } from "../responsive";
 
 
 const Container = styled.div`
 display:flex;
 padding-bottom: 10px;
+${mobile({flexDirection: "column"})}
+
 `;
 const Left = styled.div`
     flex:1;
@@ -38,6 +41,8 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({display:"none"})}
+
 `;
 
 const Title = styled.h3`
@@ -60,6 +65,8 @@ const ListItem = styled.li`
 
 const Right =styled.div `
     flex: 1;
+${mobile({backgroundColor: "#f9e3e3"})}
+
 `;
 
 const ContactItem= styled.div`
@@ -78,7 +85,7 @@ const Footer = () => {
   return (
     <Container>
         <Left>
-        <Logo>Baroon</Logo>
+        <Logo>WearMe</Logo>
         <Desc>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iusto vitae aliquid odio facilis eaque nulla, quas quod magni inventore!</Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
