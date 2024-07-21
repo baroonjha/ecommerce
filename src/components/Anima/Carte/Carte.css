@@ -1,0 +1,653 @@
+.cart {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cart .div {
+    background-color: #ffffff;
+    height: 1796px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .cart .overlap {
+    height: 416px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1442px;
+  }
+  
+  .cart .header {
+    background-color: transparent;
+    height: 104px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1442px;
+  }
+  
+  .cart .overlap-group {
+    background-color: #fbfbfb;
+    height: 92px;
+    position: relative;
+    width: 1442px;
+  }
+  
+  .cart .overlap-2 {
+    height: 77px;
+    left: 42px;
+    position: absolute;
+    top: 9px;
+    width: 1300px;
+  }
+  
+  .cart .group {
+    height: 77px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1300px;
+  }
+  
+  .cart .group-2 {
+    height: 77px;
+    position: relative;
+  }
+  
+  .cart .akar-icons-heart {
+    height: 29px;
+    left: 1199px;
+    position: absolute;
+    top: 28px;
+    width: 28px;
+  }
+  
+  /* .cart .ant-design-shopping {
+    height: 29px;
+    left: 1272px;
+    position: absolute;
+    top: 28px;
+    width: 28px;
+  } */
+  
+  /* .cart .frame {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 182px;
+  } */
+  
+  .cart .image {
+    height: 77px;
+    object-fit: cover;
+    position: relative;
+    width: 126px;
+  }
+  
+  /* .cart .vector {
+    height: 19px;
+    left: 1143px;
+    position: absolute;
+    top: 32px;
+    width: 23px;
+  } */
+  
+  .cart .rectangle {
+    background-color: #d9e8ea;
+    border-radius: 100px;
+    height: 40px;
+    left: 424px;
+    position: absolute;
+    top: 24px;
+    width: 588px;
+  }
+  
+  .cart .akar-icons-search {
+    height: 29px;
+    left: 965px;
+    position: absolute;
+    top: 27px;
+    width: 28px;
+  }
+  
+  .cart .text-wrapper {
+    color: #000000;
+    font-family: "Montserrat-ExtraLight", Helvetica;
+    font-size: 34px;
+    font-weight: 200;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+    width: 518px;
+  }
+  
+  .cart .button {
+    all: unset;
+    align-items: center;
+    background-color: var(--dark-500);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 37px;
+    justify-content: center;
+    left: 1359px;
+    padding: 20px;
+    position: absolute;
+    top: 32px;
+    width: 71px;
+  }
+  
+  .cart .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    color: var(--white-500);
+    font-family: var(--body-1-regular-font-family);
+    font-size: var(--body-1-regular-font-size);
+    font-style: var(--body-1-regular-font-style);
+    font-weight: var(--body-1-regular-font-weight);
+    letter-spacing: var(--body-1-regular-letter-spacing);
+    line-height: var(--body-1-regular-line-height);
+    margin-bottom: -12px;
+    margin-left: -3.5px;
+    margin-right: -3.5px;
+    margin-top: -14px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .cart .overlap-wrapper {
+    height: 316px;
+    left: 0;
+    position: absolute;
+    top: 100px;
+    width: 1440px;
+  }
+  
+  .cart .overlap-3 {
+    background-image: url(./rectangle-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 328px;
+    position: relative;
+    top: -6px;
+  }
+  
+  .cart .overlap-group-wrapper {
+    height: 133px;
+    left: 667px;
+    position: absolute;
+    top: 67px;
+    width: 108px;
+  }
+  
+  .cart .overlap-group-2 {
+    height: 133px;
+    position: relative;
+    width: 106px;
+  }
+  
+  .cart .text-wrapper-2 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 48px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 61px;
+  }
+  
+  .cart .meubel-house-logos {
+    height: 77px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 77px;
+  }
+  
+  .cart .group-3 {
+    height: 24px;
+    left: 660px;
+    position: absolute;
+    top: 201px;
+    width: 119px;
+  }
+  
+  .cart .text-wrapper-3 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cart .text-wrapper-4 {
+    color: #000000;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cart .dashicons-arrow-down {
+    height: 20px;
+    left: 54px;
+    position: absolute;
+    top: 2px;
+    width: 20px;
+  }
+  
+  .cart .group-wrapper {
+    background-color: #ffffff;
+    height: 525px;
+    left: 0;
+    position: absolute;
+    top: 416px;
+    width: 1440px;
+  }
+  
+  .cart .group-4 {
+    height: 390px;
+    left: 100px;
+    position: relative;
+    top: 72px;
+    width: 1240px;
+  }
+  
+  .cart .div-wrapper {
+    height: 215px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 817px;
+  }
+  
+  .cart .overlap-4 {
+    height: 215px;
+    position: relative;
+  }
+  
+  .cart .group-5 {
+    height: 25px;
+    left: 142px;
+    position: absolute;
+    top: 150px;
+    width: 579px;
+  }
+  
+  .cart .text-wrapper-5 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 461px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cart .text-wrapper-6 {
+    color: #9f9f9f;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+  }
+  
+  .cart .text-wrapper-7 {
+    color: #9f9f9f;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 177px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+  }
+  
+  .cart .rectangle-2 {
+    background-color: #f9f1e7;
+    height: 55px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 817px;
+  }
+  
+  .cart .group-6 {
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 800px;
+  }
+  
+  .cart .text-wrapper-8 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 142px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cart .text-wrapper-9 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 319px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cart .text-wrapper-10 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 496px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cart .text-wrapper-11 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 602px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .cart .group-7 {
+    height: 105px;
+    left: 0;
+    position: absolute;
+    top: 95px;
+    width: 108px;
+  }
+  
+  .cart .overlap-group-3 {
+    height: 105px;
+    position: relative;
+  }
+  
+  .cart .rectangle-3 {
+    background-color: #b88e2f38;
+    border-radius: 10px;
+    height: 105px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 105px;
+  }
+  
+  .cart .mask-group {
+    height: 105px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 105px;
+  }
+  
+  .cart .group-8 {
+    height: 32px;
+    left: 515px;
+    position: absolute;
+    top: 132px;
+    width: 34px;
+  }
+  
+  .cart .overlap-5 {
+    border: 1px solid;
+    border-color: #9f9f9f;
+    border-radius: 5px;
+    height: 32px;
+    position: relative;
+    width: 32px;
+  }
+  
+  .cart .text-wrapper-12 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+  }
+  
+  .cart .ant-design-delete {
+    height: 28px;
+    left: 764px;
+    position: absolute;
+    top: 133px;
+    width: 28px;
+  }
+  
+  .cart .group-9 {
+    height: 390px;
+    left: 847px;
+    position: absolute;
+    top: 0;
+    width: 403px;
+  }
+  
+  .cart .overlap-6 {
+    background-color: #f9f1e7;
+    height: 390px;
+    position: relative;
+    width: 393px;
+  }
+  
+  .cart .text-wrapper-13 {
+    color: #000000;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    left: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+  }
+  
+  .cart .text-wrapper-14 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 75px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 124px;
+  }
+  
+  .cart .text-wrapper-15 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 75px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 179px;
+  }
+  
+  .cart .text-wrapper-16 {
+    color: #9f9f9f;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 206px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 124px;
+  }
+  
+  .cart .text-wrapper-17 {
+    color: var(--primary);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 174px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 179px;
+  }
+  
+  .cart .group-10 {
+    height: 59px;
+    left: 86px;
+    position: absolute;
+    top: 251px;
+    width: 224px;
+  }
+  
+  .cart .overlap-group-4 {
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 15px;
+    height: 59px;
+    position: relative;
+    width: 222px;
+  }
+  
+  .cart .text-wrapper-18 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 58px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+  }
+  
+  .cart .feature-wrapper {
+    align-items: center;
+    background-color: #faf3ea;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 270px;
+    justify-content: space-around;
+    left: 0;
+    padding: 100px 0px;
+    position: absolute;
+    top: 963px;
+    width: 1440px;
+  }
+  
+  .cart .feature {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 1334px;
+  }
+  
+  .cart .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .cart .img {
+    height: 60px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .cart .text {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+  }
+  
+  .cart .text-wrapper-19 {
+    color: #242424;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 37.5px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .cart .text-wrapper-20 {
+    color: var(--color-gray-3);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .cart .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+  }

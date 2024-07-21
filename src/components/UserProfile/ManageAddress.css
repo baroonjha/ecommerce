@@ -1,0 +1,94 @@
+.manage-address-main {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 521px;
+    left: 455px;
+    position: absolute;
+    top: 258px;
+    width: 835px;
+    /* border: 2px solid red; */
+    padding: 10px 10px;
+    margin-left: 2rem;
+  }
+  .address-name{
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+
+  .call-symbol{
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .user-manage-address-main-btn{
+    align-items: center;
+    color: white;
+    background-color: #121018;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 2rem;
+    justify-content: center;
+    padding: 20px;
+    width: 130px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .user-manage-address-edit-btn{
+    align-items: center;
+    color: white;
+    background-color: #11dca6;
+    border-radius: 10px;
+    display: flex;
+    gap: 11px;
+    height: 2rem;
+    justify-content: center;
+    padding: 1rem 1rem;
+    width: 130px;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  .user-manage-address-delete-btn{
+    align-items: center;
+    color: white;
+    background-color: #ea95a5;
+    border-radius: 10px;
+    display: flex;
+    gap: 6px;
+    height: 2rem;
+    justify-content: center;
+    padding: 0.6rem;
+    width: 130px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .user-manage-address{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .btn-manage-address button{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .element-my-orders .rectangle {
+    background-color: #a4a1aa33;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 160px;
+    width: 828px;
+  }

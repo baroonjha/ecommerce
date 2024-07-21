@@ -129,7 +129,7 @@ const Product = () => {
             <InfoContainer>
                 <Title>Denim Jeans</Title>
                 <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cumque esse architecto placeat unde voluptatum quos commodi eligendi molestias numquam.</Desc>
-                <Price> $ 20</Price>
+                <Price> Rs. 2000</Price>
                 <FilterContainer>
                     <Filter>
                     <FilterTitle>Color</FilterTitle>

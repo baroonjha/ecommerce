@@ -1,0 +1,808 @@
+.element-my-orders {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .element-my-orders .div {
+    background-color: #ffffff;
+    height: 1268px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  /* .element-my-orders .all-orders {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 521px;
+    left: 455px;
+    position: absolute;
+    top: 258px;
+    width: 835px;
+  } */
+  
+  /* .element-my-orders .element {
+    height: 161px;
+    margin-right: -3px;
+    position: relative;
+    width: 838px;
+  } */
+  
+  /* .element-my-orders .group {
+    background-color: #a4a1aa0d;
+    height: 79px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 79px;
+  } */
+  
+  /* .element-my-orders .kindpng {
+    height: 52px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 13px;
+    width: 58px;
+  } */
+  
+  /* .element-my-orders .button {
+    all: unset;
+    align-items: center;
+    background-color: #3cd1391a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    height: 30px;
+    justify-content: center;
+    left: 1px;
+    padding: 6px 10px;
+    position: absolute;
+    top: 109px;
+  } */
+  
+  /* .element-my-orders .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    color: #3cd139;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+  } */
+  
+  /* .element-my-orders .p {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 113px;
+  } */
+  
+  /* .element-my-orders .rectangle {
+    background-color: #a4a1aa33;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 160px;
+    width: 828px;
+  } */
+  
+  /* .element-my-orders .text-wrapper-2 {
+    
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    left: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  } */
+  
+  /* .element-my-orders .text-wrapper-3 {
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    left: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 56px;
+  } */
+  
+  /* .element-my-orders .text-wrapper-4 {
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    left: 523px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  } */
+  
+  /* .element-my-orders .text-wrapper-5 {
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    left: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  } */
+  
+  /* .element-my-orders .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 701px;
+    position: absolute;
+    top: 0;
+  } */
+  
+  /* .element-my-orders .button-wrapper {
+    all: unset;
+    align-items: center;
+    border: 1px solid;
+    border-color: #121018;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 127px;
+  }
+  
+  .element-my-orders .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    color: #121018;
+    font-family: var(--paragraph-2-regular-font-family);
+    font-size: var(--paragraph-2-regular-font-size);
+    font-style: var(--paragraph-2-regular-font-style);
+    font-weight: var(--paragraph-2-regular-font-weight);
+    letter-spacing: var(--paragraph-2-regular-letter-spacing);
+    line-height: var(--paragraph-2-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .div-wrapper {
+    all: unset;
+    align-items: center;
+    background-color: #121018;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 127px;
+  }
+  
+  .element-my-orders .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: var(--paragraph-2-regular-font-family);
+    font-size: var(--paragraph-2-regular-font-size);
+    font-style: var(--paragraph-2-regular-font-style);
+    font-weight: var(--paragraph-2-regular-font-weight);
+    letter-spacing: var(--paragraph-2-regular-letter-spacing);
+    line-height: var(--paragraph-2-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .img {
+    height: 71px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 58px;
+  }
+  
+  .element-my-orders .button-4 {
+    all: unset;
+    align-items: center;
+    background-color: #e3b2311a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    height: 30px;
+    justify-content: center;
+    left: 1px;
+    padding: 6px 10px;
+    position: absolute;
+    top: 109px;
+  }
+  
+  .element-my-orders .button-5 {
+    all: unset;
+    box-sizing: border-box;
+    color: #e3b131;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .text-wrapper-6 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 83px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 113px;
+  }
+  
+  .element-my-orders .button-6 {
+    all: unset;
+    align-items: center;
+    background-color: #ff7262;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 127px;
+  } */
+  
+  .element-my-orders .element-2 {
+    height: 161px;
+    margin-bottom: -2px;
+    margin-right: -3px;
+    position: relative;
+    width: 838px;
+  }
+  
+  .element-my-orders .kindpng-2 {
+    height: 61px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 58px;
+  }
+  
+  .element-my-orders .title {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    left: 141px;
+    position: absolute;
+    top: 150px;
+    width: 1149px;
+  }
+  
+  .element-my-orders .text-wrapper-7 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 640px;
+  }
+
+  input:focus {
+    outline: none;
+}
+  
+  .element-my-orders .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .element-my-orders .input {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #a4a1aa33;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 56px;
+    justify-content: center;
+    /* padding: 10px 16px; */
+    position: relative;
+    width: 320px;
+    font-size: 14px;
+    outline: none;
+  }
+
+  .frame-3 .text{
+    color:  red;
+    color: #121018;
+  }
+  
+  .element-my-orders .frame-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .element-my-orders .icon-instance-node {
+    position: relative !important;
+
+  }
+  .userDashboard-Icons{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .frame-3 .text {
+    border: none;
+    color: #24222a;
+    flex: 1;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .element-my-orders .button-7 {
+    align-items: center;
+    background-color: #121018;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 56px;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    width: 130px;
+  }
+  
+  .element-my-orders .button-8 {
+    all: unset;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -2.5px;
+    margin-top: -4.5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .huge-icon-device {
+    height: 24px;
+    margin-bottom: -4px;
+    margin-top: -4px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .element-my-orders .overlap {
+    height: 6px;
+    left: 2px;
+    position: absolute;
+    top: 3px;
+    width: 20px;
+  }
+  
+  .element-my-orders .vector {
+    height: 2px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 2px !important;
+    width: 8px !important;
+  }
+  
+  .element-my-orders .vector-756 {
+    height: 2px !important;
+    left: 11px !important;
+    position: absolute !important;
+    top: 2px !important;
+    width: 8px !important;
+  }
+  
+  .element-my-orders .ellipse {
+    border: 1.5px solid;
+    border-color: #ffffff;
+    border-radius: 2.75px;
+    height: 6px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+  
+  .element-my-orders .vector-754 {
+    height: 2px !important;
+    left: 2px !important;
+    position: absolute !important;
+    top: 11px !important;
+    width: 10px !important;
+  }
+  
+  .element-my-orders .overlap-group {
+    height: 6px;
+    left: 14px;
+    position: absolute;
+    top: 9px;
+    width: 8px;
+  }
+  
+  .element-my-orders .vector-757 {
+    height: 2px !important;
+    left: 4px !important;
+    position: absolute !important;
+    top: 2px !important;
+    width: 4px !important;
+  }
+  
+  .element-my-orders .ellipse-2 {
+    border: 1.5px solid;
+    border-color: #ffffff;
+    border-radius: 2.75px;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+  
+  .element-my-orders .vector-756-instance {
+    height: 2px !important;
+    left: 12px !important;
+    position: absolute !important;
+    top: 17px !important;
+    width: 8px !important;
+  }
+  
+  .element-my-orders .overlap-group-2 {
+    height: 6px;
+    left: 2px;
+    position: absolute;
+    top: 15px;
+    width: 8px;
+  }
+  
+  .element-my-orders .vector-2 {
+    height: 2px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 2px !important;
+    width: 4px !important;
+  }
+  
+  .element-my-orders .ellipse-3 {
+    border: 1.5px solid;
+    border-color: #ffffff;
+    border-radius: 2.75px;
+    height: 6px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+  
+  .element-my-orders .side-menu {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #a4a1aa33;
+    box-shadow: 0px 8px 8px -4px #10182805, 0px 10px 40px -4px #10182805;
+    height: 522px;
+    left: 141px;
+    position: absolute;
+    top: 258px;
+    width: 264px;
+  }
+  
+  .element-my-orders .profile {
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 262px;
+  }
+  
+  .element-my-orders .rectangle-2 {
+    background-color: #a4a1aa33;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 71px;
+    width: 262px;
+  }
+  
+  .element-my-orders .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 16px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .element-my-orders .ellipse-4 {
+    height: 51px;
+    object-fit: cover;
+    position: relative;
+    width: 51px;
+    border-radius: 50px;
+  }
+  
+  .element-my-orders .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+  }
+  
+  .element-my-orders .text-wrapper-8 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .text-wrapper-9 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .all-details {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 112px;
+  }
+
+ .frame-wrapper:hover{
+  border: 2px solid red;
+  /* background-color: #e3b131; */
+
+ }
+ .frame-wrapper:focus{
+  /* background-color: #121018; */
+ }
+
+ .linkBg:focus{
+background-color: #3cd139;
+color: white;
+ }
+
+
+  
+.frame-wrapper {
+    /* background-color: #ffffff; */
+    height: 56px;
+    position: relative;
+    width: 262px;
+  }
+  
+  .element-my-orders .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    gap: 12px;
+    left: 20px;
+    position: relative;
+    top: 16px;
+  }
+  
+  .element-my-orders .ellipse-5 {
+    border: 1.5px solid;
+    border-color: #121018;
+    border-radius: 7.75px/4.25px;
+    height: 8px;
+    left: 4px;
+    position: absolute;
+    top: 13px;
+    width: 16px;
+  }
+  
+  .element-my-orders .ellipse-6 {
+    border: 1.5px solid;
+    border-color: #121018;
+    border-radius: 4.75px;
+    height: 10px;
+    left: 7px;
+    position: absolute;
+    top: 2px;
+    width: 10px;
+  }
+  
+  .element-my-orders .text-wrapper-10 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .my-orders {
+    height: 56px;
+    position: relative;
+    width: 262px;
+  }
+  
+  .element-my-orders .text-wrapper-11 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .overlap-group-3 {
+    height: 22px;
+    left: 2px;
+    position: relative;
+    top: 1px;
+    width: 20px;
+  }
+  
+  .element-my-orders .ellipse-7 {
+    border: 1.5px solid;
+    border-color: #121018;
+    border-radius: 3.75px;
+    height: 8px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 8px;
+  }
+  
+  .element-my-orders .ellipse-884 {
+    height: 22px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 20px !important;
+  }
+  
+  .element-my-orders .header {
+    background-color: #ffffff;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .element-my-orders .logo-text {
+    height: 58px !important;
+    left: 100px !important;
+    position: absolute !important;
+    top: 21px !important;
+    width: 143px !important;
+  }
+  
+  .element-my-orders .navbar {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 30px;
+    left: 524px;
+    position: absolute;
+    top: 38px;
+  }
+  
+  .element-my-orders .text-wrapper-12 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .element-my-orders .frame-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .element-my-orders .frame-8 {
+    align-items: center;
+    display: inline-flex;
+    gap: 30px;
+    left: 1100px;
+    position: absolute;
+    top: 25px;
+  }
+  
+  .element-my-orders .button-9 {
+    all: unset;
+    align-items: center;
+    background-color: #121018;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    width: 98px;
+  }
+  
+  .element-my-orders .button-10 {
+    all: unset;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -5.5px;
+    margin-top: -7.5px;
+    position: relative;
+    width: fit-content;
+  }

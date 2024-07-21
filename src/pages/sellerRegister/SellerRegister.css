@@ -1,0 +1,172 @@
+.reg-seller-cont{
+    margin: 5px 5px;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+}
+.progress-bar{
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 20% 70% 1fr;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 16px 16px 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: larger;
+}
+.first-div{
+    display: flex;
+    -webkit-box-align: start;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 8rem;
+}
+.line{
+    background: rgb(193, 199, 208);
+    height: 2px;
+    width: 30px;
+
+}
+
+.inside-bar{
+    display: flex;
+    -webkit-box-align: start;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: start;
+    gap: 10px;
+}
+.inside-bar .icon{
+    color: rgb(61, 70, 77);
+}
+.seller-form{
+  justify-content: center;
+  display: grid;
+
+}  
+
+.reg-info-container{
+   width: 40vw;
+}
+
+.otp-send-btn{
+  margin: 0rem -4rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.text-base {
+    line-height: 1;
+    margin: 0;
+    height: 20px;
+    padding: 5px 8px;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+    transition: all .3s;
+  }
+  
+  .text-base:focus {
+    border: 2px solid #0074d9;
+    outline: 0;
+  }
+  
+  .text-field {
+    position: relative;
+  }
+  
+  .text-field input,
+  .text-field textarea {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 9px;
+  }
+
+  .reg-category{
+    margin-bottom: 1rem;
+    font-family:'Inter', sans-serif;
+    color: rgb(41, 35, 35);
+    font-family: 'Times New Roman', Times, serif;
+    gap: 2px;
+    
+  }
+
+
+  .dropdown-box{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 9px;
+    margin-top: 5px;
+  }
+  .dropdown-text{
+
+  }
+
+  .privacy-text{
+    color: rgb(95, 112, 128);
+    display: inline;
+    font-family: emoji;
+    margin-bottom: 1rem;
+  }
+
+  .seller-reg-text span{
+    color: #0074d9;
+  }
+
+  .continue-btn{
+    margin-top: 1rem;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    min-width: 96px;
+    width: fit-content;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+    background-color: rgb(0, 102, 204);
+    color: rgb(255, 255, 255);
+  }
+  
+  .text-field span {
+    color: #aaa;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 23px;
+    transition: 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .text-field input:focus+span,
+  .text-field input:not(:placeholder-shown)+span,
+  .text-field textarea:focus+span,
+  .text-field textarea:not(:placeholder-shown)+span {
+    top: 2px;
+    left: 10px;
+    font-size: small;
+    background-color: #fff;
+    padding: 0 5px 0 5px;
+  }
+  
+  .text-field input:focus:invalid+span,
+  .text-field input:not(:placeholder-shown):invalid+span,
+  .text-field textarea:focus:invalid+span,
+  .text-field textarea:not(:placeholder-shown):invalid+span {
+    color: red;
+  }
+  
+  .w100p {
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  .w100p textarea {
+    height: 120px;
+  }

@@ -1,0 +1,15 @@
+.product-image-slider {
+    height: 90px;
+    width: 80px;
+  }
+  
+  .product-image-slider.default {
+    background-image: url(../appuser/product-image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  
+  .product-image-slider.active {
+    background-image: url(../appuser/product-image-3.png);
+    background-size: 100% 100%;
+  }

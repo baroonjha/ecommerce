@@ -1,0 +1,273 @@
+.element-my-orders .all-orders {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 521px;
+    left: 455px;
+    position: absolute;
+    top: 258px;
+    width: 835px;
+  }
+
+  .element-my-orders .element {
+    height: 161px;
+    margin-right: -3px;
+    position: relative;
+    width: 838px;
+  }
+
+  .element-my-orders .group {
+    background-color: #a4a1aa0d;
+    height: 79px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 79px;
+  }
+  
+  .element-my-orders .kindpng {
+    height: 52px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 13px;
+    width: 58px;
+  }
+  
+  .element-my-orders .button {
+    all: unset;
+    align-items: center;
+    background-color: #3cd1391a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    height: 30px;
+    justify-content: center;
+    left: 1px;
+    padding: 6px 10px;
+    position: absolute;
+    top: 109px;
+  }
+  
+  .element-my-orders .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    color: #3cd139;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .p {
+    /* color: #121018; */
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 113px;
+  }
+  
+  .element-my-orders .rectangle {
+    background-color: #a4a1aa33;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 160px;
+    width: 828px;
+  }
+  
+  .element-my-orders .text-wrapper-2 {
+    /* border: 2px solid red; */
+    /* color: #121018; */
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    /* font-weight: 400; */
+    left: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .element-my-orders .text-wrapper-3 {
+    /* color: black; */
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    /* font-weight: 400; */
+    left: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 56px;
+  }
+  
+  .element-my-orders .text-wrapper-4 {
+    /* color: #121018; */
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    /* font-weight: 400; */
+    left: 523px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  }
+  
+  .element-my-orders .text-wrapper-5 {
+    /* color: #121018; */
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    /* font-weight: 400; */
+    left: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  }
+
+  .element-my-orders .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 701px;
+    position: absolute;
+    top: 0;
+  }
+
+  .element-my-orders .button-wrapper {
+    all: unset;
+    align-items: center;
+    border: 1px solid;
+    border-color: #121018;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 127px;
+  }
+  
+  .element-my-orders .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    color: #121018;
+    font-family: var(--paragraph-2-regular-font-family);
+    font-size: var(--paragraph-2-regular-font-size);
+    font-style: var(--paragraph-2-regular-font-style);
+    font-weight: var(--paragraph-2-regular-font-weight);
+    letter-spacing: var(--paragraph-2-regular-letter-spacing);
+    line-height: var(--paragraph-2-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .div-wrapper {
+    all: unset;
+    align-items: center;
+    background-color: #121018;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 127px;
+  }
+  
+  .element-my-orders .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: var(--paragraph-2-regular-font-family);
+    font-size: var(--paragraph-2-regular-font-size);
+    font-style: var(--paragraph-2-regular-font-style);
+    font-weight: var(--paragraph-2-regular-font-weight);
+    letter-spacing: var(--paragraph-2-regular-letter-spacing);
+    line-height: var(--paragraph-2-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .img {
+    height: 71px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 58px;
+  }
+  
+  .element-my-orders .button-4 {
+    all: unset;
+    align-items: center;
+    background-color: #e3b2311a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    height: 30px;
+    justify-content: center;
+    left: 1px;
+    padding: 6px 10px;
+    position: absolute;
+    top: 109px;
+  }
+  
+  .element-my-orders .button-5 {
+    all: unset;
+    box-sizing: border-box;
+    color: #e3b131;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-my-orders .text-wrapper-6 {
+    color: #121018;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 83px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 113px;
+  }
+  
+  .element-my-orders .button-6 {
+    all: unset;
+    align-items: center;
+    background-color: #ff7262;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 127px;
+  }

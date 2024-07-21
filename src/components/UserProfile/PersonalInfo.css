@@ -1,0 +1,76 @@
+ .user-info {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 521px;
+    left: 455px;
+    position: absolute;
+    top: 258px;
+    width: 835px;
+    /* border: 2px solid red; */
+    padding: 10px 10px;
+    margin-left: 2rem;
+  }
+  .user-name{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-name-div{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .user-info input{
+    position: relative;
+    width: 21rem;
+    padding: 7px 10px;
+    border-radius: 8px;
+
+  }
+
+  .user-edit-profile-btn{
+    align-items: center;
+    color: white;
+    background-color: #121018;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 2rem;
+    justify-content: center;
+    padding: 20px;
+    width: 130px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .user-info label{
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 14px;
+    border: none;
+  }
+
+  .input-box-user,.input-box-phone ,.input-box-email{
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    border: 2px solid  rgb(72, 71, 71);
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 18px;
+  }
+
+  .user-address{
+    display: flex;
+    flex-direction: column;
+  }
+  .input-box-address {
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    border: 2px solid  rgb(72, 71, 71);
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 18px;
+    width: 100%;
+  }
+ 

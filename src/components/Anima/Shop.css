@@ -1,0 +1,79 @@
+.box {
+  height: 546px;
+  position: relative;
+  width: 1182px;
+}
+
+.box .group {
+  height: 546px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1184px;
+}
+
+.box .div-wrapper {
+  height: 36px;
+  left: 532px;
+  position: absolute;
+  top: 510px;
+  width: 118px;
+}
+
+.box .text-wrapper {
+  color: var(--font-color);
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.box .mask-group {
+  height: 305px;
+  left: 0;
+  position: absolute;
+  top: 175px;
+  width: 328px;
+}
+
+.box .div {
+  color: var(--font-color);
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 113px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 510px;
+}
+
+.box .image-living-room {
+  height: 480px;
+  left: 400px;
+  position: absolute;
+  top: 0;
+  width: 381px;
+}
+
+.box .img {
+  height: 480px;
+  left: 801px;
+  position: absolute;
+  top: 0;
+  width: 381px;
+}
+
+.box .group-2 {
+  height: 36px;
+  left: 952px;
+  position: absolute;
+  top: 510px;
+  width: 81px;
+}
