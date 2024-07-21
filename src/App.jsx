@@ -5,6 +5,7 @@ import Product from './pages/Product'
 import Register from './pages/Register'
 import Home from './pages/Home'
 import ProductList from './pages/Cart'
+import {Routes,Route} from "react-router-dom"
 // import ProductList from './pages/ProductList'
 
 
@@ -12,11 +13,11 @@ function App() {
 
   return (
     <>
-     <Home />
-     {/* <ProductList /> */}
-     {/* <Cart/> */}
-     {/* <Register/> */}
-     {/* <Product/> */}
+    <Routes> 
+        <Route path="/cart" element={<Cart/>} />
+        <Route path='/' element={<Home />} />
+    </Routes> 
+     {/* <Home /> */}
     </>
   )
 }
