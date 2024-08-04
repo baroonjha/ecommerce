@@ -20,8 +20,6 @@ const Home = () => {
         <Announcement />
         <Navbar />
         <Slider />
-      
-
         <Categories />
         <Products />
         <Newsletter />
