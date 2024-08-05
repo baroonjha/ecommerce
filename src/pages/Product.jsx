@@ -10,6 +10,8 @@ import { mobile } from "../responsive";
 import { useLocation } from "react-router-dom"
 import { publicRequest } from "../../requestMethods"
 import { useEffect, useState } from "react"
+import { useDispatch } from "react-redux"
+import { addProduct } from "../redux/cartRedux"
 
 const Container = styled.div``;
 const Wrapper = styled.div`
@@ -119,6 +121,7 @@ const Button = styled.button`
 
 
 const Product = () => {
+    const dispatch = useDispatch();
     const location = useLocation();
     const id = location.pathname.split("/")[2]
     const [product,setProduct] =useState([])
@@ -154,7 +157,9 @@ const Product = () => {
     }
 
     const handleClick=()=>{
-        
+        dispatch(addProduct({...product,quantity,color,size}))
+        // console.log("clicked",product)
+        // dispatch(addProduct)
     }
 
   return (
