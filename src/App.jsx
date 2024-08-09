@@ -14,7 +14,8 @@ import { useSelector } from 'react-redux'
 function App() {
 
   const user=useSelector((state)=>state.user.currentUser);
-  const navigate= useNavigate();
+  console.log("user",user)
+  // const navigate= useNavigate();
 
   return (
     <>
