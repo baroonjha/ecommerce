@@ -7,10 +7,10 @@ const TOKEN = JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).
 
 export const publicRequest = axios.create({
     baseURL:BASE_URL,
-    header:{token:`Bearer ${TOKEN}`}
+    // header:{token:`Bearer ${TOKEN}`}
 })
 
 export const userRequest = axios.create({
     baseURL:BASE_URL,
-    header:{token:`Bearer ${TOKEN}`}
+    headers:{token:`Bearer ${TOKEN}`}
 })

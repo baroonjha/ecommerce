@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import Badge from '@mui/material/Badge';
-import { Search, ShoppingCartOutlined } from "@mui/icons-material";
+import { Search, ShoppingCartOutlined,PersonPin } from "@mui/icons-material";
+// import PersonPinIcon from '@mui/icons-material/PersonPin';
 import {useSelector} from "react-redux"
 
 import {mobile} from "../responsive"
@@ -75,6 +76,9 @@ const MenuItem = styled.div`
 `;
 
 const Navbar = () => {
+  const user=useSelector((state)=>state.user.currentUser)
+  console.log("user in navbar ",user);
+  
   const quantity = useSelector((state)=>state.cart.quantity)
   console.log("cart value",quantity)
   return (
@@ -91,8 +95,13 @@ const Navbar = () => {
           <Logo>WearMe</Logo>
         </Center>
         <Right>
+          {user ? <Link to="/profile"><PersonPin/></Link>:(
+            <>
+            
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
+             </>
+        )}
           <Link to="/cart">
           <MenuItem>
             <Badge badgeContent={quantity} color="primary">

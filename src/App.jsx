@@ -8,6 +8,7 @@ import ProductList from './pages/ProductList'
 import {Routes,Route, Navigate,useNavigate} from "react-router-dom"
 import Success from './pages/Success'
 import { useSelector } from 'react-redux'
+import Profile from "../src/components/Anima/Profile"
 // import ProductList from './pages/ProductList'
 
 
@@ -24,6 +25,7 @@ function App() {
     <Route path='/products/:category' element={<ProductList />} />
     <Route path='/product/:id' element={<Product />} />
     <Route path="/cart" element={<Cart/>} />
+    <Route path="/profile" element={<Profile />} />
     <Route path="/login" element={user ? <Navigate to="/" /> : <Login />} />
     <Route path="/success" element={<Success/>} />
     <Route path="/register" element={user ? <Navigate to="/" /> : <Register />} />
